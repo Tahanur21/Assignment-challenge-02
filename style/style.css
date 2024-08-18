@@ -19,6 +19,12 @@ body{
     background-color: rgba(17, 17, 17, 1);
 } */
 /* Shared style */
+.display-flex{
+    display: flex;
+}
+.bg-color-2{
+    background-color: #000000;
+}
 .bg-color{
    background-color: rgba(17, 17, 17, 1);
 }
@@ -29,6 +35,10 @@ body{
 /* Font-2 */
 .font-2{
     color: #E6533C;
+}
+/* Font-3 */
+.font-3{
+    color: rgba(255, 255, 255, 0.5);
 }
 .btn-primary{
     background-color: #E6533C;
@@ -43,7 +53,7 @@ body{
 
 /* header style */
 .nav-container {
-    width: 1202px;
+    max-width: 1202px;
     margin: 0 auto;
 }
 .nav-contents{
@@ -54,9 +64,7 @@ body{
     font-size: 32px;
     font-weight: 700;
 }
-.nav-lists{
-    /* border: 1px solid gray */
-}
+
 .nav-lists{
     display: flex;
     width: 430px;
@@ -81,12 +89,19 @@ body{
     border-radius: 25px;
     font-weight: 600;
 }
+#hambergur-icon{
+    /* display: none; */
+}
+
 
 /* Banner section */
 
 .banner{
     display: flex;
     justify-content: space-between;
+}
+.banner-content{
+    width: 36rem;
 }
 .banner-title{
     font-size: 73px;
@@ -109,7 +124,7 @@ body{
     margin-left: 12px;
 }
 .banner-card{
-    background-color: rgb(255 255 255 / 10%);
+    background-color: rgba(255, 255, 255, 0.1);
     width: 160px;
     border: 1px solid #80808033;
     border-radius: 17px;
@@ -126,6 +141,173 @@ body{
     font-weight: 400;
     color: rgb(255 255 255 / 54%);
 }
+#card-1{
+    position: absolute;
+    top: 195px;
+    right: 129px;
+}
+#card-2{
+    position: absolute;
+    bottom: 138px;
+    right: 437px;
+}
+.inner-card-2 {
+    margin: 0px 0px 0px 45px;
+}
+#icon {
+    background-color: #E6533C;
+    color: #ffff;
+    padding: 11px 12px;
+    border-radius: 19px;
+    position: absolute;
+    top: 41px;
+    left: 18px;
+}
+.banner-image{
+   max-width: 100%;
+}
+
 /* main sectional area */
 
+.gym-habits {
+    max-width: 1202px;
+    margin: 0 auto;
+    margin-top: -21px;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+.habits-content {
+    padding: 38px 0 0 0;
+    width: 59%;
+    margin: 0 auto;
+    margin-top: 21px;
+}
+.habit-title {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 23px;
+}
+.habit-description {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 6rem;
+}
+.habit-card-img {
+    border-radius: 8rem;
+}
+.habit-card-title {
+    font-size: 16px;
+    font-weight: 600;
+}
+.habit-card-description {
+    font-size: 16px;
+    font-weight: 400;
+}
+
 /* footer */
+
+/* Small device style */
+
+@media screen and (max-width: 576px) {
+    header{
+        padding: 15px;
+    }
+    .banner{
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+    }
+    .banner-content{
+        width: 47%;
+    }
+    .banner-title {
+        width: 25rem;
+        font-size: 50px;
+        line-height: 61px;
+    }
+    .style-title {
+        font-size: 84px;
+    }
+    .banner-description {        
+        font-size: 16px;
+        font-weight: 400;
+        width: 18rem;
+    }
+    .banner-btn {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 23rem;
+    }
+    .btn-primary {
+        padding: 16px 29px;
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 3rem;
+    }
+    .banner-btn {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* margin-left: 0; */
+        width: 23rem;
+    }
+    #banner-btn{
+        /* margin-left: 12px; */
+    }
+    .nav-lists{
+        display: none;
+        display: "<i class="fa-solid fa-bars"></i>";
+    }
+    .banner-image {
+        width: 60%;
+        margin-left: 6rem;
+        margin-bottom: -19px;
+    }
+    .banner-card {
+
+        width: 141px;
+        padding: 0px 0px 0px 14px;
+        line-height: 0px;
+    }
+    .card-title {
+        font-size: 32px;
+        font-weight: 500;
+        color: #FFFFFF;
+    }
+    .card-descript {
+        font-size: 11px;
+    }
+    #card-1 {
+        position: absolute;
+        top: 41rem;
+        right: 2rem;
+    }
+    #card-2 {
+        position: absolute;
+        bottom: -18rem;
+        right: 15.5rem;
+        padding-right: 0px;
+    }
+    #icon {
+        padding: 7px 9px;
+        position: absolute;
+        top: 24px;
+        left: 14px;
+    }
+    #hambergur-icon {
+        /* display: block; */
+        color: #ffff;
+        font-size: 22px;
+        position: absolute;
+        right: 5rem;
+        top: 58px;
+    }
+    .habits-content {
+        width: 72%;
+    }
+    .habit-container{
+        width: 75%;
+        margin: 0 auto;
+        flex-direction: column;
+        gap: 37px;
+    }
+}
