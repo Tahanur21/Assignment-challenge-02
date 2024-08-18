@@ -237,6 +237,70 @@ body{
     padding: 14px 71px;
     font-size: 18px;
 }
+.bmi-section{
+   max-width: 1202px;
+   margin: 0 auto;
+}
+.bmi-content {
+    width: 59%;
+    margin: 0 auto;
+    margin-top: 6rem;
+}
+.bmi-main-container{
+    background-color: #222222;
+    justify-content: center;
+    padding: 4rem;
+}
+.left-bmi {
+    margin-right: 8rem;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+}
+.bmi-left-title.font-1 {
+    margin-bottom: 2rem;
+}
+.table{
+    width: 100%;
+}
+.bmi-table, th, td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    width: 366px;
+    padding: 11px 13px;
+    text-align: left;
+}
+th{
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 400;
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 300;
+}
+.bmi-form {
+    display: grid;
+    grid-template-columns: repeat(2, 240px);
+    gap: 9px;
+    margin-bottom: 27px;
+}
+.gender-option {
+    padding: 15px 19px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgb(255 255 255 / 37%);
+    border: none;
+    outline: none;
+    border-radius: 7px;
+}
+/* #first-gender-option{
+    background-color: #FFFFFF;
+    opacity: 10%;
+    color: rgb(255 255 255);
+}
+#last-gender-option {
+    color: rgb(255 255 255 / 37%);
+} */
 /* footer */
 
 /* Small device style */
