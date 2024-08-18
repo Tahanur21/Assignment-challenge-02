@@ -203,7 +203,40 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
-
+.timing-section {
+    max-width: 1202px;
+    margin: 0 auto;
+    padding: 36px 3px 36px 82px;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+}
+.right-side {
+    width: 42rem;
+}
+.right-side-img {
+    width: 92%;
+    border-radius: 2rem;
+}
+.left-side {
+    width: 30rem;
+    margin-right: 14rem;
+}
+.left-title {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 23px;
+}
+.left-description {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+#left-btn {
+    padding: 14px 71px;
+    font-size: 18px;
+}
 /* footer */
 
 /* Small device style */
