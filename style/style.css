@@ -343,4 +343,24 @@ body{
         flex-direction: column;
         gap: 37px;
     }
+    .timing-section {
+        flex-direction: column;
+    }
+    .left-side {
+        width: 20rem;
+        margin: 0 auto;
+        margin-left: -3rem;
+    }
+    #left-btn {
+        padding: 14px 119px;
+        font-size: 18px;
+    }
+    .right-side {
+        width: auto;
+    }
+    .right-side-img {
+        width: 21rem;
+        margin-left: -5rem;
+        border-radius: 2rem;
+    }
 }
