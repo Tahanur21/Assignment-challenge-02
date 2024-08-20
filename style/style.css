@@ -306,6 +306,7 @@ td{
 }
 .team-section {
     max-width: 1202px;
+    height: 62rem;
     margin: 0 auto;
     text-align: center;
 }
@@ -350,6 +351,63 @@ td{
     font-size: 23px;
 }
 /* footer */
+footer {
+    background-color: #222222;
+}
+.footer-section {
+    max-width: 1202px;
+    /* height: 28rem; */
+    margin: 0 auto;
+    margin-left: 9rem;
+    padding: 23px 0px;
+}
+.footer-content {
+    justify-content: space-between;
+}
+.left-footer {
+    width: 21rem;
+}
+.left-footer-title {
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.left-footer-description {
+    font-size: 15px;
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+.middle-title {
+    font-size: 32px;
+    font-weight: 500;
+}
+.middle-footer-items {
+    display: flex;
+    flex-direction: column;
+}
+.middle-list {
+    list-style: none;
+    margin-left: -40px;
+    padding: 11px 0;
+}
+.middle-link {
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer-horizontal-line {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    width: 100%;
+    margin: 54px 0px -1px 0px;
+}
+.footer-description.font-3 {
+    text-align: center;
+    margin-top: 36px;
+    font-size: 17px;
+    font-weight: 400;
+}
 
 /* Small device style */
 
@@ -506,10 +564,30 @@ td{
     .team-container{
         grid-template-columns: repeat(1,1fr);
     }
+    .team-section {
+        max-width: 1202px;
+        height: 146rem;
+        margin: 0 auto;
+        text-align: center;
+    }
     .team-content {
         width: 84%;
         margin: 0 auto;
         margin-top: 7rem;
         margin-bottom: 4rem;
+    }
+    .footer-section {     
+        height: auto;      
+        margin-left: 1.4rem;
+    }
+    .footer-content {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .left-footer-description {      
+        margin-bottom: 0;
+    }
+    .footer-horizontal-line {   
+        width: 93%;
     }
 }
