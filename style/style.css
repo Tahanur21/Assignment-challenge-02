@@ -293,14 +293,62 @@ td{
     outline: none;
     border-radius: 7px;
 }
-/* #first-gender-option{
-    background-color: #FFFFFF;
-    opacity: 10%;
-    color: rgb(255 255 255);
+.bmi-title.font-1 {
+    font-size: 46px;
+    font-weight: 700;
+}
+.bmi-description.font-3 {
+    font-size: 16px;
+    font-weight: 500;
 }
 #last-gender-option {
-    color: rgb(255 255 255 / 37%);
-} */
+    width: 30.5rem;
+}
+.team-section {
+    max-width: 1202px;
+    margin: 0 auto;
+    text-align: center;
+}
+.team-title.font-1 {
+    font-size: 44px;
+    font-weight: 700;
+}
+.team-description.font-3 {
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: -17px;
+}
+.team-content {
+    width: 50rem;
+    margin: 0 auto;
+    margin-top: 7rem;
+    margin-bottom: 6rem;
+}
+.team-img-box {
+    margin: -5rem 21rem 0 0;
+}
+.team-card {   
+    width: 100%;
+}
+.team-img {
+    width: 354.8px;
+    height: 317.1px;
+    border-radius: 22px;
+}
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(3, 398px);
+    background-color: #222222;
+    padding: 21px 3px 3px;
+    border-radius: 28px;
+}
+.team-img-box {
+    margin: -6rem 35px 45px;
+    text-align: left;
+}
+.team-img-title{
+    font-size: 23px;
+}
 /* footer */
 
 /* Small device style */
@@ -423,8 +471,45 @@ td{
         width: auto;
     }
     .right-side-img {
-        width: 21rem;
-        margin-left: -5rem;
+        width: 20rem;
+        margin-left: -6rem;
         border-radius: 2rem;
+    }
+    .bmi-main-container{
+        flex-direction: column;
+        padding: 2rem;
+    }
+    .bmi-content {
+        width: 86%;
+        margin: 0 auto;
+        margin-top: 5rem;
+    }
+    .left-bmi {
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    .bmi-table, th, td {      
+        width: 351px;
+        padding: 10px 11px;
+    }
+    .bmi-form {  
+        grid-template-columns: repeat(2, 172px);  
+        margin: 34px 0; 
+    }
+    #last-gender-option {
+        width: 22rem;
+    }
+    .right-bmi {
+        margin-top: 18px;
+    }
+    .team-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .team-content {
+        width: 84%;
+        margin: 0 auto;
+        margin-top: 7rem;
+        margin-bottom: 4rem;
     }
 }
